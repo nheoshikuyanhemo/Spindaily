@@ -1,6 +1,7 @@
 # Spindaily
-Experiment
-Berikut adalah langkah-langkah lengkap instalasi dan menjalankan auto daily spin PLUME di Termux, menggunakan Node.js, Ethers.js, dan .env:
+### Experiment
+
+## Berikut adalah langkah-langkah lengkap instalasi dan menjalankan auto daily spin PLUME di Termux, menggunakan Node.js, Ethers.js, dan .env:
 
 
 ---
