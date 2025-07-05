@@ -42,11 +42,11 @@ nano .env
 
 Lalu isi dengan data berikut:
 
-``
+```
 PRIVATE_KEY=isi_private_key_kamu
 PLUME_RPC=https://rpc.phoenix.plume.xyz
 SPIN_CONTRACT=0xB8e9F72bd52575B61705e4376970E14C9F573D71
-``
+```
 
 > ⚠️ Gantilah PRIVATE_KEY dengan private key wallet-mu (tanpa 0x).
 
