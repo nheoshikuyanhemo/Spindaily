@@ -7,11 +7,11 @@ Berikut adalah langkah-langkah lengkap instalasi dan menjalankan auto daily spin
 
 ✅ 1. Persiapan Awal di Termux
 
-`
+```
 pkg update && pkg upgrade -y
 pkg install nodejs git nano -y
 pkg install git -y
-`
+```
 
 ---
 
