@@ -50,7 +50,7 @@ SPIN_CONTRACT=0xB8e9F72bd52575B61705e4376970E14C9F573D71
 nano spin.mjs
 
 Paste isi kode berikut:
-` 
+;
 import 'dotenv/config';
 import { ethers } from 'ethers';
 
@@ -117,4 +117,4 @@ async function main() {
 }
 
 main();
-`
+;
