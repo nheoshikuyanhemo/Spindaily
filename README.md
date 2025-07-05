@@ -7,36 +7,36 @@ Berikut adalah langkah-langkah lengkap instalasi dan menjalankan auto daily spin
 
 ✅ 1. Persiapan Awal di Termux
 
-`pkg update && pkg upgrade -y`
-`pkg install nodejs git nano -y`
-`pkg install git -y`
+```pkg update && pkg upgrade -y```
+```pkg install nodejs git nano -y```
+```pkg install git -y```
 
 ---
 
 ✅ 2. Buat Folder Project dan Masuk ke Dalamnya
 
-`mkdir auto-spin-plume && cd auto-spin-plume`
+```mkdir auto-spin-plume && cd auto-spin-plume```
 
 
 ---
 
 ✅ 3. Inisialisasi Proyek Node.js dan Instal Dependensi
 
-`npm init -y`
-`npm install ethers dotenv`
+```npm init -y```
+```npm install ethers dotenv```
 
 
 ---
 
 ✅ 4. Buat File Konfigurasi .env
 
-`nano .env`
+```nano .env```
 
 Lalu isi dengan data berikut:
 
-`PRIVATE_KEY=isi_private_key_kamu
+``PRIVATE_KEY=isi_private_key_kamu
 PLUME_RPC=https://rpc.phoenix.plume.xyz
-SPIN_CONTRACT=0xB8e9F72bd52575B61705e4376970E14C9F573D71`
+SPIN_CONTRACT=0xB8e9F72bd52575B61705e4376970E14C9F573D71``
 
 > ⚠️ Gantilah PRIVATE_KEY dengan private key wallet-mu (tanpa 0x).
 
@@ -51,4 +51,4 @@ SPIN_CONTRACT=0xB8e9F72bd52575B61705e4376970E14C9F573D71`
 ---
 ✅ 6. run script 
 
-`node spin.mjs`
+```node spin.mjs```
